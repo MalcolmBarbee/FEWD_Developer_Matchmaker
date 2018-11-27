@@ -4,31 +4,34 @@ html{
 .clearbox{
     position: absolute;
     box-shadow: 0 0 5px;
-    background: rgb(209, 189, 189);
+    background-color: rgb(209, 189, 189);
     opacity: .9;
-    top: 250px;
-    height: 65%;
-    width: 40%;
+    top: 35%;
+    max-height: 50%;
+    width: 45%;
     left: 450px; 
     right: 0; 
+    margin-right: 2%;
     margin-left: auto; 
-    margin-right: auto; 
     Text-align: left;
     letter-spacing:3px;
     line-height: 175%;
-    padding: 10px;
+    padding: 2%;
+    overflow: hidden;
 }
 .heading {
-    background-color: grey;
+    background-color:grey;
     text-align: center;
     font-style: italic;
     font-weight: 700;
     border-top: 5px solid yellow;
     border-bottom: 10px solid grey;
-
+    
 }
 .container{
-    width: 30%;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
 }
 h1{
     color:yellow;
@@ -38,27 +41,22 @@ h2{
     font-weight:bold;
     text-align: center;
 }
-img{
-    height: 400px;
-    width: 100%;
-}
 input{
+    font-family: 'Oswald', sans-serif;
+    border: 0;
+    border-radius: 5px;
     background: grey;
     width: 150px;
     height: 50px;
     font-weight: 200;
     box-shadow: 0 0 5px;
     text-align: center;
-    margin-right: 100px;
+    margin-right: auto;
+    margin-left: auto;
     font-weight: 900;
-}
-
-.body-nav .designers .lowertab{
-    background: grey;
-    width: 150px;
-    height: 50px;
-    font-weight: bold;
-    box-shadow: 0 0 5px; 
+    display: block;
+    text-align: center;
+    padding: 12px;
 }
 .body-nav{
     display: flex;
@@ -66,15 +64,8 @@ input{
 a:hover{
     color: yellow;
 }
-.toplinks{
-    display: inline;
-    color: black;
-   
-}
-
 .column1 {
     width: 100%;
-    height: 100px;
     background-color: black;
     font: white;  
     border-bottom: 5px solid yellow;
@@ -82,7 +73,7 @@ a:hover{
 .column {
     text-align: left;
     width: 100%;
-    height: 100px;
+   
     background-color: black;
     font: white;  
     
@@ -91,38 +82,41 @@ strong{
     color: white;
     text-align: left;
 }
-.profile{
-    width: 30%; 
-   
-}
-.devs{
-     display: inline;
-}
+
 .devs a{
     font-weight: bold;
-}
-.designers{
-    display: inline;
+    padding: 2% 3%;
+    
 }
 .designers a{
     font-weight: bold;
+    padding: 2% 3%;
 }
-.devs ::before {
-    
-}
-.devs ::after {
-    
-}
-.headlinks{
-    text-align: right;   
-}
-p{
+.headlinks{   
+    overflow: hidden;
     
 }
 ins{
-   background-color:yellow;
-   color: black;
+   text-decoration: underline yellow;
 }
 .col{
-    width: 33%;
+    display: inline; 
+    padding: 2% 3%;
+    line-height: 175%;
+    margin: auto;
+}
+span{
+    padding: 2% 3%;
+}
+img{
+    background-size: cover;
+    width: 100%;
+}
+ul{
+    float: right;
+    margin-left: auto;
+    margin-right: 2%;
+}
+li{
+    float: left;
 }
